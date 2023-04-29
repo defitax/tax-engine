@@ -16,7 +16,7 @@ total_proceeds = 0
 # Loop through each sale transaction
 for transaction in sales:
     
-    # Calculate the cost basis for this sale
+    # Calculate the cost basis for this sale 
     cost_basis = transaction['number_of_coins_sold'] * transaction['cost_per_coin_at_purchase']
     
     # Add the cost basis to the total cost basis
@@ -33,3 +33,6 @@ short_term_sales = total_proceeds - total_cost_basis
 
 # The short term sales will be commited and later we will be added the tax rates
 print(short_term_sales)
+
+# The Short term sales tax liability will be vary so it has mode detail to calculate exact tax figure
+print(short_term_sales*15/100)
