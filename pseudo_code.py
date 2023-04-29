@@ -1,5 +1,5 @@
 #There will be few lists will be added to understand the difference between to two users transactions. This was only the complete of one layer there will be more added and connected with all time line accross the core areas.
-address = 
+
 # Define the list of sale transactions as a list of dictionaries
 sales = [
     {'number_of_coins_sold': 5, 'cost_per_coin_at_purchase': 100, 'selling_price_per_coin': 150},
