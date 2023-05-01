@@ -3,10 +3,13 @@ Purchases = [
     {'cost_per_coin_at_purchase': cost_per_coin, 'number_of_coins_purchase': num_purchase}
 ]
 
+
 #There will be few lists will be added to understand the difference between to two users transactions. This was only the complete of one layer there will be more added and connected with all time line accross the core areas.
 num_sold = input("Give me the number of coins sold\n")
 cost_per_coin = input("How much the coin price at the time of purchase\n")
 selling_per_coin = input("At what price you sold the coin\n")
+num_purchase 
+
 
 # Define the list of sale transactions as a list of dictionaries
 sales = [
