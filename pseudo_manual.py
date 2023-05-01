@@ -13,6 +13,8 @@ total_cost_basis = 0
 
 # Create a variable to store the total proceeds for all coins sold
 total_proceeds = 0
+# Create a purchase data over last transcations 
+purchase = input("create from api")
 
 # Loop through each sale transaction
 for transaction in sales:
