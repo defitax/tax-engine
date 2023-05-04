@@ -3,7 +3,8 @@ Purchases = [
     {'cost_per_coin_at_purchase': cost_per_coin, 'number_of_coins_purchase': num_purchase}
 ]
 # Create a purchase history as testimonial
-
+# underline 
+print("complete")
 
 #There will be few lists will be added to understand the difference between to two users transactions. This was only the complete of one layer there will be more added and connected with all time line accross the core areas.
 num_sold = input("Give me the number of coins sold\n")
